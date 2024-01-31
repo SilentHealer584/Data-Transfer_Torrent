@@ -13,6 +13,7 @@ How does it work?
    - The Server receives the public key and assigns it to the client's IP in a dictionnary
    - The server finally sends a message to the Client to check It's connectivity and to make sure it can start communicating data
 
+
 -- ToDo: --
 
 2. The Communication
@@ -20,6 +21,7 @@ How does it work?
    - The user can now chose to download, or upload files to the database
    - 
 -- End --
+
 
 The only available script is the client's as the server is operated by me and contains sensible information. The current script is to be viewed as an app.
 You are free to use the Work Principles i described earlier to try and code a server script yourself!
