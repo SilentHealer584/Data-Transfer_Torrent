@@ -3,7 +3,7 @@
 Hello World!
 
 I present to you a data transfer system based on Python's Socket Module.
-It makes use of Rsa to asymmetrically encrypt and decrypt data ensuring data protection.
+It makes use of Rsa to asymmetrically encrypt and decrypt data ensuring it's protection.
 
 How does it work?
 
