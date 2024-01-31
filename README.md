@@ -17,11 +17,11 @@ How does it work?
 -- ToDo: --
 
 2. The Communication
-   - Once the handshake is done, the server send the client all useful information such as files present in it's database
+   - Once the handshake is done, the server sends the client useful information such as files and documents available in the database
    - The user can now chose to download, or upload files to the database
-   - 
+
 -- End --
 
 
-The only available script is the client's as the server is operated by me and contains sensible information. The current script is to be viewed as an app.
+The only available script is Client.py as the server (Server.py) is operated by Me and contains sensible information. The current script is to be viewed as an app.
 You are free to use the Work Principles i described earlier to try and code a server script yourself!
