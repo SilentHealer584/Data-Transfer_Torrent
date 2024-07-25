@@ -5,6 +5,7 @@ Hello World!
 I present to you a data transfer system based on Python's Socket Module.
 It makes use of my own [RSA Module](https://github.com/SilentHealer584/RSA-i-guess) to safely encrypt the communicated data.
 
+Refer to my RSA Module's README for download and setup instructions.
 
 ##How does it work?
 
