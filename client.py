@@ -1,22 +1,18 @@
 import socket
-import rsa
+import rsa_i_guess as rig
 
-public_key, private_key = rsa.newkeys(2048)
- 
-# Create a socket object 
+# Generate public and private keys
+public, private = rig.key_gen(2048)
+
+# Establich connection
 s = socket.socket()         
- 
-# Define the port on which you want to connect 
-port = 42069               
- 
-# connect to the server on local computer 
-s.connect(('127.0.0.1', port)) 
- 
-# Initiate Handshake
-public_key_str = rsa.PublicKey.save_pkcs1(public_key).decode()
-s.send(public_key_str.encode())
+s.connect(('127.0.0.1', 42069)) 
 
-print(rsa.decrypt(s.recv(8192), private_key).decode())
+# Share Public Key
+s.send(str(public[1]).encode())
 
-# close the connection 
+# Decrypt received message with private key
+print(rig.decrypt(int(s.recv(8192).decode()), private))
+
+#Close connections
 s.close()
