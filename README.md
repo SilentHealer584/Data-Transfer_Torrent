@@ -10,7 +10,7 @@ Refer to my RSA Module's README for download and setup instructions.
 ## How does it work?
 
 1. The Client script generate two keys, one public, one private thanks to the [rsa_i_guess]((https://github.com/SilentHealer584/RSA-i-guess)) module.
-2. The Client connects to the Server and sends it the unecrypted public key (This is the only bad part).
+2. The Client connects to the Server and sends it the unecrypted public key.
 3. The Server receives the key, encrypts a message and sends it to the Client.
 4. The client decrypts the message.
 
