@@ -15,5 +15,4 @@ Refer to my RSA Module's README for download and setup instructions.
 4. The client decrypts the message.
 
 
-There are some flaws in the way the key is communicated (unencrypted and cut) which can be fixed. Don't use this for any serious communication purposes.
-This is more of a demo.
+There are some flaws in the way the keys are structured (as arrays).
